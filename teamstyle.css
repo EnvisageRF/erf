@@ -7,7 +7,7 @@
 
 header{
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../website_final/images/Jungle\ owlet\ lans.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Jungle\ owlet\ lans.jpg');
     height: 450vh;
     background-size: cover;
     background-position: center;
