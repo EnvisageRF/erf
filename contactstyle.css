@@ -7,7 +7,7 @@
 
 header{
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../website_final/images/image3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/image3.jpg');
     height: 130vh;
     background-size: cover;
     background-position: center;
