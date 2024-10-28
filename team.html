@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+
+    <link rel="stylesheet" href="teamstyle.css">
+<style>
+
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 50px; /* Space between cards */
+    padding: 20px;
+    max-width: 900px; /* Set a maximum width for better appearance */
+    margin: auto; /* Center the container */
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100%; /* Use full width of the grid cell */
+    margin: 15px;
+    perspective: 1000px;
+    overflow: hidden;
+}
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-back {
+    background-color: #80dfff;
+    color: rgb(4, 4, 4);
+    transform: rotateY(180deg);
+    padding: 10px;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}  
+
+</style>
+</head>
+
+ <header>
+    <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="aboutus.html"><b>About us</b></a></li>
+                <li><a href="team.html" class="active"><b>Our Team</b></a></li>
+                <li><a href="projects.html"><b>Projects</b></a></li>
+                <li><a href="#"><b>Contact Us</b></a></li>
+                
+            </ul>
+    </nav>
+
+
+
+<div class="team-container">
+<!-- Team Member: Varna Sree Kumar -->
+<div class="card">
+    <div class="card-inner">
+        <div class="card-front">
+            <img src="../website_final/images/VARNA_PIC.jpeg" alt="Varna Sree Kumar">
+            <div class="card-front-content">
+            <h3>Varna Sree Kumar</h3>
+            <p>Founder & Ecologist</p>
+            <p>MSc Bioinformatics, MS Cellular and Molecular Medicine</p>
+        </div>
+    </div>
+        <div class="card-back">
+            <p>Ms Sree Kumar is an ecologist / bioinformatician. Her passion lies in the behavioural ecology of species, where she explores how animals interact with their environments.
+               After initially working in biomedical research, she switched her career to focus on conservation and ecology, driven by a deep love for nature and wildlife.</p>               
+            <p>Outside of work, Varna and her dog Maximus are inseperable, especially when it comes to their mutual fear of house lizards.
+               And if Max could talk, he’d tell her, ‘Forget fetch! let’s escape to the mountains and leave humanity and every creepy lizards far, far behind.’</p>
+        </div>
+    </div>
+</div>
+
+<!-- Team Member: Dibyendu Biswas -->
+<div class="card">
+    <div class="card-inner">
+        <div class="card-front">
+            <img src="../website_final/images/dibyendu_pic.jpeg" alt="Dibyendu Biswas">
+            <div class="card-front-content">
+            <h3>Dibyendu Biswas</h3>
+            <p>Founder & Environmentalist</p>
+            <p>MSc Ecology and Environment Studies</p>
+        </div>
+    </div>
+        <div class="card-back">
+            <p>Mr. Biswas has a diverse research background, having worked on Environmental Impact Assessments (EIA), species distribution modeling (SDM), and the movement ecology of vultures. He has a strong inclination towards interdisciplinary approaches to environmental issues.  His interests now extend to behavioral ecology and tackling lesser-discussed environmental challenges that have significant, yet often overlooked, impacts.
+             He is also a strong advocate for the use and dissemination of free and open-source software (FOSS) and knowledge-sharing practices.</p>
+             
+            <p>But wait, Dibyendu is the trickster god himself! He’s “burdened with glorious purpose” to save the environment, and who knows? Maybe he’ll use his charm to convince everyone to recycle more or plant a tree or two!</p>
+        </div>
+    </div>
+</div>
+
+<!-- Team Member: Aparajitha Dev Narayanaiyer -->
+<div class="card">
+    <div class="card-inner">
+        <div class="card-front">
+            <img src="../website_final/images/aparajitha.jpg" alt="Aparajitha Dev Narayanaiyer">
+            <div class="card-front-content">
+            <h3>Aparajitha Dev Narayanaiyer</h3>
+            <p>Legal & Policy Expert</p>
+            <p>BBA LLB (Hons), LLM</p>
+        </div>
+    </div>
+        <div class="card-back">
+            <p>Aparajita is a dedicated lawyer with both a Bachelor’s and Master’s degree, in Law. Her passion lies in shaping impactful policies that promote environmental sustainability and social justice.</p>
+                <p> When she’s not fighting for the greater good, you can find her wrangling her four dogs and a cat, who collectively probably think they run the household. 
+                    She’s all about dog training, which is kind of like lawyering, but with more tail wags and fewer briefs.</p>
+        </div>
+    </div>
+</div>
+<!-- Team Member: Avik Biswas -->
+<div class="card">
+    <div class="card-inner">
+        <div class="card-front">
+            <img src="../website_final/images/avik.jpeg" alt="Avik Biswas">
+            <div class="card-front-content">
+            <h3>Avik Biswas</h3>
+            <p>Stakeholder/ Ecologist</p>
+            <p>MSc Forestry Management</p>
+        </div>
+    </div>
+        <div class="card-back">
+            <p>Avik is a sustainability professional with industrial experience in habitat restoration projects aimed at achieving no net loss and a net positive impact.
+            His expertise includes bioresource mapping and implementing nature-based solutions for carbon offsetting. 
+            He has coordinated sustainability audits like BRSR and GRI and contributed to preparing sustainability reports. Notably, Avik has worked with a leading development organization, assisting Indigenous communities in creating sustainable livelihoods, and has analyzed wildlife corridor usage in the Terai Arc Landscape, studying the effects of anthropogenic pressures.</p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <div class="card-front">
+            <img src="../website_final/images/kamran.jpeg" alt="Kamran Husain">
+            <div class="card-front-content">
+            <h3>Kamran Husain</h3>
+            <p>Wildlife Biologist</p>
+            <p>MSc</p>
+        </div>
+    </div>
+        <div class="card-back">
+            <p>Kamran Husain is a wildlife biologist with experience in studying birds and mammals. He has worked on movement ecology, biodiversity conservation and species distribution across various landscapes in India.
+             His research focuses on ecological sampling, data analysis and conservation strategies.</p>
+             <p>.</p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <div class="card-front">
+            <img src="../website_final/images/niket.jpg" alt="Niket Alashi">
+            <div class="card-front-content">
+            <h3>Niket Alashi</h3>
+            <p>Wildlife Biologist</p>
+            <p>MSc</p>
+        </div>
+    </div>
+        <div class="card-back">
+            <p>Niket Alashi is an ecologist specializing in amphibian and bird diversity and movement within India. His work spans amphibian movement in the Western Ghats, gharial recovery in Central India, 
+                understanding environmental factors influencing bird communities, and addressing the ecological impacts of infrastructure development.
+                He brings a naturalist’s keen eye to field documentation.</p>
+             <p>.</p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <div class="card-front">
+            <img src="../website_final/images/shrilak.jpg" alt="Shri Lak">
+            <div class="card-front-content">
+            <h3>Shri Lak</h3>
+            <p>Wildlife Biologist</p>
+            <p>MSc</p>
+        </div>
+    </div>
+        <div class="card-back">
+            <p>Mr. Lak has a background in the health sciences with research interests on disease ecology,  tribal health, and communicable disease dynamics at the human-wildlife interface. 
+            With primary interest on One Health topics, he has previously contributed towards creation of One Health management plans, and communicable disease surveillance and systems research.</p>
+             <p>In addition to these, Mr. Lak has a strong desire to possess shape-shifting superpowers, so that he can enjoy the monsoons in his home in the mountains as a frog.</p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-inner">
+        <div class="card-front">
+            <img src="../website_final/images/zainab.jpg" alt="Zainab Khan">
+            <div class="card-front-content">
+            <h3>Zainab Khan</h3>
+            <p>Wildlife Biologist</p>
+            <p>MSc</p>
+        </div>
+    </div>
+        <div class="card-back">
+            <p>Zainab is a dynamic wildlife biologist passionate about avian ecology, behaviour, and endangered species conservation. Whether monitoring birds in urban areas or studying the elusive Forest Owlet in remote landscapes, 
+                Zainab thrives in green spaces, unravelling the mysteries of avian behavior and their habitat dynamics. Her work takes her from the heart of India’s tiger reserves to lesser-known, unprotected landscapes, where she dives deep into conservation challenges.
+                </p>
+             <p> Beyond the field, Zainab channels her creativity into wildlife art, blending science with artistry to bring animals to life in a unique and engaging way. 
+                With a love for both research and storytelling, she’s dedicated to making conservation as inspiring as it is impactful.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Add more team members as needed -->
+
+<script src="script.js"></script>     
+
+</body>
+</html>
+        
