@@ -122,11 +122,11 @@ ul li{
 
 .list .item .content{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50px;
     transform: translateY(-50%);
     width: 500px;
-    text-align: left;
+    text-align: justify;
     color: #fff;
     display: none;
 }
@@ -226,13 +226,13 @@ ul li{
 
 .arrows{
     position: absolute;
-    top: 80%;
-    right: 52%;
+    top: 87%;
+    right: 30%;
     z-index: 100;
     width: 300px;
     max-width: 30%;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 
