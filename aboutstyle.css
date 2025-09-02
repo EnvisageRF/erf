@@ -123,9 +123,9 @@ ul li{
 .list .item .content{
     position: absolute;
     top: 50%;
-    left: 100px;
+    left: 50px;
     transform: translateY(-50%);
-    width: 400px;
+    width: 500px;
     text-align: left;
     color: #fff;
     display: none;
